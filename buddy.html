@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .buddy-style{
+            border: 2px solid brown;
+            border-radius: 15px;
+            padding: 10px;
+            margin: 10px;
+            align-items: center;
+        }
+        #buddy-Container{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+        }
+    </style>
+</head>
+<body>
+    <h1>My All Buddies Details are showen Below</h1>
+    <button onclick="buddyGenerate()">Buddy Generate</button>
+    <div id="buddy-Container">
+
+    </div>
+    <script src="buddy.js"></script>
+</body>
+</html>
